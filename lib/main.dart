@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Space App',
       theme: ThemeData.dark(),
 
-      initialRoute: AppRoute.HomeScreen.name,
+      initialRoute: AppRoute.LoginScreen.name,
       routes: {
         AppRoute.LoginScreen.name : (_) =>  LoginScreen(),
         AppRoute.HomeScreen.name : (context) =>  Homescreen(),
